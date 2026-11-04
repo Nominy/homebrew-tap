@@ -1,9 +1,9 @@
 cask "vitreus" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "9091b35b0db7659401e0d00412c6b1adfdddd830d54dba7ce672a51b389189eb",
-         intel: "7e0f6f2c6b26c21c4097c2536a2fc4d26b334ec421d26dd6a1789254248ed8f4"
+  version "0.2.1"
+  sha256 arm:   "c45c50c2c8060dd81093af73f63d2ab389a48bf4abf41bbb784afbbe05df52d2",
+         intel: "56430387a1f6d978c23e955d6efc1541a0ed625b0e0d8d6033c3013cd5b48735"
 
   url "https://github.com/Nominy/vitreus/releases/download/v#{version}/vitreus-macos-#{arch}.tar.gz"
   name "Vitreus"
